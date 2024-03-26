@@ -1,0 +1,1 @@
+C:\Users\Tekken\Desktop\OOP_CourseProject\TaskManager\Manager.UI\Manager.UI.csproj;x64

@@ -1,0 +1,12 @@
+C:\Users\Tekken\Desktop\OOP_CourseProject\TaskManager\Manager.Domain\bin\Debug\net8.0\Manager.Domain.deps.json
+C:\Users\Tekken\Desktop\OOP_CourseProject\TaskManager\Manager.Domain\bin\Debug\net8.0\Manager.Domain.dll
+C:\Users\Tekken\Desktop\OOP_CourseProject\TaskManager\Manager.Domain\bin\Debug\net8.0\Manager.Domain.pdb
+C:\Users\Tekken\Desktop\OOP_CourseProject\TaskManager\Manager.Domain\obj\Debug\net8.0\Manager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tekken\Desktop\OOP_CourseProject\TaskManager\Manager.Domain\obj\Debug\net8.0\Manager.Domain.AssemblyInfoInputs.cache
+C:\Users\Tekken\Desktop\OOP_CourseProject\TaskManager\Manager.Domain\obj\Debug\net8.0\Manager.Domain.AssemblyInfo.cs
+C:\Users\Tekken\Desktop\OOP_CourseProject\TaskManager\Manager.Domain\obj\Debug\net8.0\Manager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Tekken\Desktop\OOP_CourseProject\TaskManager\Manager.Domain\obj\Debug\net8.0\Manager.Domain.sourcelink.json
+C:\Users\Tekken\Desktop\OOP_CourseProject\TaskManager\Manager.Domain\obj\Debug\net8.0\Manager.Domain.dll
+C:\Users\Tekken\Desktop\OOP_CourseProject\TaskManager\Manager.Domain\obj\Debug\net8.0\refint\Manager.Domain.dll
+C:\Users\Tekken\Desktop\OOP_CourseProject\TaskManager\Manager.Domain\obj\Debug\net8.0\Manager.Domain.pdb
+C:\Users\Tekken\Desktop\OOP_CourseProject\TaskManager\Manager.Domain\obj\Debug\net8.0\ref\Manager.Domain.dll
