@@ -1,0 +1,843 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\pages\\addsubtaskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\pages\\addsubtaskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\pages\\addtaskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\pages\\addtaskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\pages\\detalipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\pages\\detalipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\pages\\editsubtaskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\pages\\editsubtaskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\viewmodels\\edittaskpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\viewmodels\\edittaskpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\viewmodels\\profilepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\viewmodels\\profilepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\pages\\edittaskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\pages\\edittaskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\viewmodels\\loginpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\viewmodels\\loginpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\viewmodels\\registrationpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\viewmodels\\registrationpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\viewmodels\\addsubtaskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\viewmodels\\addsubtaskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\viewmodels\\addtaskpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\viewmodels\\addtaskpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\viewmodels\\detalipageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\viewmodels\\detalipageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\viewmodels\\editsubtaskpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\viewmodels\\editsubtaskpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\viewmodels\\userpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\viewmodels\\userpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\pages\\userpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\pages\\userpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\pages\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\pages\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\pages\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\pages\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5E7A8D-1218-42C7-BD37-DD6DB6E888C2}|Manager.Persistense\\Manager.Persistense.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.persistense\\repository\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5E7A8D-1218-42C7-BD37-DD6DB6E888C2}|Manager.Persistense\\Manager.Persistense.csproj|solutionrelative:manager.persistense\\repository\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5E7A8D-1218-42C7-BD37-DD6DB6E888C2}|Manager.Persistense\\Manager.Persistense.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.persistense\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5E7A8D-1218-42C7-BD37-DD6DB6E888C2}|Manager.Persistense\\Manager.Persistense.csproj|solutionrelative:manager.persistense\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5E7A8D-1218-42C7-BD37-DD6DB6E888C2}|Manager.Persistense\\Manager.Persistense.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.persistense\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5E7A8D-1218-42C7-BD37-DD6DB6E888C2}|Manager.Persistense\\Manager.Persistense.csproj|solutionrelative:manager.persistense\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\valueconverters\\taskstatustobordercolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\valueconverters\\taskstatustobordercolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\manager.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\manager.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4099F8B8-B96A-420B-981D-A12599E7CA79}|Manager.Domain\\Manager.Domain.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.domain\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4099F8B8-B96A-420B-981D-A12599E7CA79}|Manager.Domain\\Manager.Domain.csproj|solutionrelative:manager.domain\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4099F8B8-B96A-420B-981D-A12599E7CA79}|Manager.Domain\\Manager.Domain.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.domain\\entities\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4099F8B8-B96A-420B-981D-A12599E7CA79}|Manager.Domain\\Manager.Domain.csproj|solutionrelative:manager.domain\\entities\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4099F8B8-B96A-420B-981D-A12599E7CA79}|Manager.Domain\\Manager.Domain.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.domain\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4099F8B8-B96A-420B-981D-A12599E7CA79}|Manager.Domain\\Manager.Domain.csproj|solutionrelative:manager.domain\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Manager.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\viewmodels\\regviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\viewmodels\\regviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4099F8B8-B96A-420B-981D-A12599E7CA79}|Manager.Domain\\Manager.Domain.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.domain\\entities\\subtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4099F8B8-B96A-420B-981D-A12599E7CA79}|Manager.Domain\\Manager.Domain.csproj|solutionrelative:manager.domain\\entities\\subtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5E7A8D-1218-42C7-BD37-DD6DB6E888C2}|Manager.Persistense\\Manager.Persistense.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.persistense\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5E7A8D-1218-42C7-BD37-DD6DB6E888C2}|Manager.Persistense\\Manager.Persistense.csproj|solutionrelative:manager.persistense\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4099F8B8-B96A-420B-981D-A12599E7CA79}|Manager.Domain\\Manager.Domain.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4099F8B8-B96A-420B-981D-A12599E7CA79}|Manager.Domain\\Manager.Domain.csproj|solutionrelative:manager.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4099F8B8-B96A-420B-981D-A12599E7CA79}|Manager.Domain\\Manager.Domain.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.domain\\entities\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4099F8B8-B96A-420B-981D-A12599E7CA79}|Manager.Domain\\Manager.Domain.csproj|solutionrelative:manager.domain\\entities\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4099F8B8-B96A-420B-981D-A12599E7CA79}|Manager.Domain\\Manager.Domain.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4099F8B8-B96A-420B-981D-A12599E7CA79}|Manager.Domain\\Manager.Domain.csproj|solutionrelative:manager.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4099F8B8-B96A-420B-981D-A12599E7CA79}|Manager.Domain\\Manager.Domain.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.domain\\abstractions\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4099F8B8-B96A-420B-981D-A12599E7CA79}|Manager.Domain\\Manager.Domain.csproj|solutionrelative:manager.domain\\abstractions\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4099F8B8-B96A-420B-981D-A12599E7CA79}|Manager.Domain\\Manager.Domain.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.domain\\abstractions\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4099F8B8-B96A-420B-981D-A12599E7CA79}|Manager.Domain\\Manager.Domain.csproj|solutionrelative:manager.domain\\abstractions\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tekken\\AppData\\Local\\Temp\\.vsdbgsrc\\4392b170b0571164cdbcc0a6bf558efbfc9a3730\\Manager.UI.ViewModels.ProfilePageViewModel.ShowDetails.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5E7A8D-1218-42C7-BD37-DD6DB6E888C2}|Manager.Persistense\\Manager.Persistense.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.persistense\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5E7A8D-1218-42C7-BD37-DD6DB6E888C2}|Manager.Persistense\\Manager.Persistense.csproj|solutionrelative:manager.persistense\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tekken\\AppData\\Local\\Temp\\.vsdbgsrc\\fe1d39d46e2962a8b6be017c31a6afa752433e26\\Pages_RegistrationPage.xaml.sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tekken\\AppData\\Local\\Temp\\.vsdbgsrc\\4e07933a2f6ec647a219d9747ac963beac759c3b\\Pages_MainPage.xaml.sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Aapt2.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\resources\\fonts\\opensans-regular.ttf||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\resources\\fonts\\opensans-regular.ttf||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tekken\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.6\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\platforms\\tizen\\tizen-manifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\platforms\\tizen\\tizen-manifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\manager\\manager.ui\\platforms\\tizen\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68DE316-C2CD-4207-A853-BE2483123930}|Manager.UI\\Manager.UI.csproj|solutionrelative:manager.ui\\platforms\\tizen\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tekken\\AppData\\Local\\Temp\\VSGeneratedDocuments\\a946094f-e164-e606-867c-dcf37e62997e\\Manager.UI.ViewModels.AuthorListViewModel.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tekken\\.nuget\\packages\\communitytoolkit.maui\\7.0.1\\ReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\BSUIR_University\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 4\\\u0421#\\lab 1-4\\Calculator\\Calculator\\Pages\\SQLite\\Entities\\Author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditTaskPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\EditTaskPageViewModel.cs",
+              "RelativeDocumentMoniker": "Manager.UI\\ViewModels\\EditTaskPageViewModel.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\EditTaskPageViewModel.cs",
+              "RelativeToolTip": "Manager.UI\\ViewModels\\EditTaskPageViewModel.cs",
+              "ViewState": "AQIAALsAAAAAAAAAAAAuwMwAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T11:02:01.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\MainPageViewModel.cs",
+              "RelativeDocumentMoniker": "Manager.UI\\ViewModels\\MainPageViewModel.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\MainPageViewModel.cs",
+              "RelativeToolTip": "Manager.UI\\ViewModels\\MainPageViewModel.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAqwDkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T13:21:03.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditSubTaskPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\EditSubTaskPage.xaml",
+              "RelativeDocumentMoniker": "Manager.UI\\Pages\\EditSubTaskPage.xaml",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\EditSubTaskPage.xaml",
+              "RelativeToolTip": "Manager.UI\\Pages\\EditSubTaskPage.xaml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-02T10:14:24.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetaliPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\DetaliPage.xaml",
+              "RelativeDocumentMoniker": "Manager.UI\\Pages\\DetaliPage.xaml",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\DetaliPage.xaml",
+              "RelativeToolTip": "Manager.UI\\Pages\\DetaliPage.xaml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAwCQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-02T10:14:28.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddTaskPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\AddTaskPage.xaml",
+              "RelativeDocumentMoniker": "Manager.UI\\Pages\\AddTaskPage.xaml",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\AddTaskPage.xaml",
+              "RelativeToolTip": "Manager.UI\\Pages\\AddTaskPage.xaml",
+              "ViewState": "AQIAADsAAAAAAAAAAAAAwEMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-02T07:34:35.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddSubTaskPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\AddSubTaskPage.xaml",
+              "RelativeDocumentMoniker": "Manager.UI\\Pages\\AddSubTaskPage.xaml",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\AddSubTaskPage.xaml",
+              "RelativeToolTip": "Manager.UI\\Pages\\AddSubTaskPage.xaml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAwEUAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-02T10:15:25.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Manager.UI\\Pages\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "Manager.UI\\Pages\\MainPage.xaml",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAADoAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-02T07:40:54.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProfilePageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\ProfilePageViewModel.cs",
+              "RelativeDocumentMoniker": "Manager.UI\\ViewModels\\ProfilePageViewModel.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\ProfilePageViewModel.cs",
+              "RelativeToolTip": "Manager.UI\\ViewModels\\ProfilePageViewModel.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAEAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T14:00:19.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditTaskPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\EditTaskPage.xaml",
+              "RelativeDocumentMoniker": "Manager.UI\\Pages\\EditTaskPage.xaml",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\EditTaskPage.xaml",
+              "RelativeToolTip": "Manager.UI\\Pages\\EditTaskPage.xaml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAwFIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-02T10:13:20.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\LoginPageViewModel.cs",
+              "RelativeDocumentMoniker": "Manager.UI\\ViewModels\\LoginPageViewModel.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\LoginPageViewModel.cs",
+              "RelativeToolTip": "Manager.UI\\ViewModels\\LoginPageViewModel.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAYwDAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T16:40:03.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegistrationPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\RegistrationPageViewModel.cs",
+              "RelativeDocumentMoniker": "Manager.UI\\ViewModels\\RegistrationPageViewModel.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\RegistrationPageViewModel.cs",
+              "RelativeToolTip": "Manager.UI\\ViewModels\\RegistrationPageViewModel.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADEAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:59:07.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddSubTaskViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\AddSubTaskViewModel.cs",
+              "RelativeDocumentMoniker": "Manager.UI\\ViewModels\\AddSubTaskViewModel.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\AddSubTaskViewModel.cs",
+              "RelativeToolTip": "Manager.UI\\ViewModels\\AddSubTaskViewModel.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAAwJcAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T20:15:57.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddTaskPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\AddTaskPageViewModel.cs",
+              "RelativeDocumentMoniker": "Manager.UI\\ViewModels\\AddTaskPageViewModel.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\AddTaskPageViewModel.cs",
+              "RelativeToolTip": "Manager.UI\\ViewModels\\AddTaskPageViewModel.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAAwJ0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T14:00:32.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DetaliPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\DetaliPageViewModel.cs",
+              "RelativeDocumentMoniker": "Manager.UI\\ViewModels\\DetaliPageViewModel.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\DetaliPageViewModel.cs",
+              "RelativeToolTip": "Manager.UI\\ViewModels\\DetaliPageViewModel.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAzwGwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T08:20:25.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EditSubTaskPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\EditSubTaskPageViewModel.cs",
+              "RelativeDocumentMoniker": "Manager.UI\\ViewModels\\EditSubTaskPageViewModel.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\EditSubTaskPageViewModel.cs",
+              "RelativeToolTip": "Manager.UI\\ViewModels\\EditSubTaskPageViewModel.cs",
+              "ViewState": "AQIAANMAAAAAAAAAAAAAwOIAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:03:17.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\UserPageViewModel.cs",
+              "RelativeDocumentMoniker": "Manager.UI\\ViewModels\\UserPageViewModel.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\UserPageViewModel.cs",
+              "RelativeToolTip": "Manager.UI\\ViewModels\\UserPageViewModel.cs",
+              "ViewState": "AQIAANAAAAAAAAAAAAAQwNkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T12:15:28.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\App.xaml",
+              "RelativeDocumentMoniker": "Manager.UI\\App.xaml",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\App.xaml",
+              "RelativeToolTip": "Manager.UI\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-05T08:11:54.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "Manager.UI\\Pages\\ProfilePage.xaml",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\ProfilePage.xaml",
+              "RelativeToolTip": "Manager.UI\\Pages\\ProfilePage.xaml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAHAAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-02T10:13:07.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\UserPage.xaml",
+              "RelativeDocumentMoniker": "Manager.UI\\Pages\\UserPage.xaml",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\UserPage.xaml",
+              "RelativeToolTip": "Manager.UI\\Pages\\UserPage.xaml",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAwDMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-02T06:36:07.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Manager.UI\\Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "Manager.UI\\Pages\\LoginPage.xaml",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-02T10:13:15.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegistrationPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\RegistrationPage.xaml",
+              "RelativeDocumentMoniker": "Manager.UI\\Pages\\RegistrationPage.xaml",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Pages\\RegistrationPage.xaml",
+              "RelativeToolTip": "Manager.UI\\Pages\\RegistrationPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-02T10:17:01.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Persistense\\Repository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Manager.Persistense\\Repository\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Persistense\\Repository\\UnitOfWork.cs",
+              "RelativeToolTip": "Manager.Persistense\\Repository\\UnitOfWork.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAA9wDQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T16:03:53.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Persistense\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "Manager.Persistense\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Persistense\\Repository\\Repository.cs",
+              "RelativeToolTip": "Manager.Persistense\\Repository\\Repository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA7wBkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T14:59:21.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthManager.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Persistense\\Repository\\AuthManager.cs",
+              "RelativeDocumentMoniker": "Manager.Persistense\\Repository\\AuthManager.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Persistense\\Repository\\AuthManager.cs",
+              "RelativeToolTip": "Manager.Persistense\\Repository\\AuthManager.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAIwCAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T16:37:04.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Manager.UI\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\MauiProgram.cs",
+              "RelativeToolTip": "Manager.UI\\MauiProgram.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T16:02:02.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Manager.UI.csproj",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Manager.UI.csproj",
+              "RelativeDocumentMoniker": "Manager.UI\\Manager.UI.csproj",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Manager.UI.csproj",
+              "RelativeToolTip": "Manager.UI\\Manager.UI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-07T16:04:39.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TaskStatusToBorderColorConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ValueConverters\\TaskStatusToBorderColorConverter.cs",
+              "RelativeDocumentMoniker": "Manager.UI\\ValueConverters\\TaskStatusToBorderColorConverter.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ValueConverters\\TaskStatusToBorderColorConverter.cs",
+              "RelativeToolTip": "Manager.UI\\ValueConverters\\TaskStatusToBorderColorConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T18:43:13.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Domain\\Entities\\Status.cs",
+              "RelativeDocumentMoniker": "Manager.Domain\\Entities\\Status.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Domain\\Entities\\Status.cs",
+              "RelativeToolTip": "Manager.Domain\\Entities\\Status.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T16:03:31.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Domain\\Entities\\Task.cs",
+              "RelativeDocumentMoniker": "Manager.Domain\\Entities\\Task.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Domain\\Entities\\Task.cs",
+              "RelativeToolTip": "Manager.Domain\\Entities\\Task.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T14:45:16.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Domain\\Entities\\Comment.cs",
+              "RelativeDocumentMoniker": "Manager.Domain\\Entities\\Comment.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Domain\\Entities\\Comment.cs",
+              "RelativeToolTip": "Manager.Domain\\Entities\\Comment.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAYwA8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T16:03:23.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "Manager.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "Manager.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAgwEQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T08:31:14.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RegViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\RegViewModels.cs",
+              "RelativeDocumentMoniker": "Manager.UI\\ViewModels\\RegViewModels.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\ViewModels\\RegViewModels.cs",
+              "RelativeToolTip": "Manager.UI\\ViewModels\\RegViewModels.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwCcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T13:59:07.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SubTask.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Domain\\Entities\\SubTask.cs",
+              "RelativeDocumentMoniker": "Manager.Domain\\Entities\\SubTask.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Domain\\Entities\\SubTask.cs",
+              "RelativeToolTip": "Manager.Domain\\Entities\\SubTask.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBZwBQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T16:01:55.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Persistense\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Manager.Persistense\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Persistense\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Manager.Persistense\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwBMAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T16:04:29.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Manager.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Manager.Domain\\Entities\\User.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAIwBUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T14:45:21.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Priority.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Domain\\Entities\\Priority.cs",
+              "RelativeDocumentMoniker": "Manager.Domain\\Entities\\Priority.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Domain\\Entities\\Priority.cs",
+              "RelativeToolTip": "Manager.Domain\\Entities\\Priority.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T14:45:44.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Manager.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "Manager.Domain\\Entities\\Category.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAuwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T16:03:21.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Domain\\Abstractions\\IRepository.cs",
+              "RelativeDocumentMoniker": "Manager.Domain\\Abstractions\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Domain\\Abstractions\\IRepository.cs",
+              "RelativeToolTip": "Manager.Domain\\Abstractions\\IRepository.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAgwBEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T18:17:25.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Domain\\Abstractions\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Manager.Domain\\Abstractions\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Domain\\Abstractions\\IUnitOfWork.cs",
+              "RelativeToolTip": "Manager.Domain\\Abstractions\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAIBZwAsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T19:59:00.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Manager.UI.ViewModels.ProfilePageViewModel.ShowDetails.g.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\AppData\\Local\\Temp\\.vsdbgsrc\\4392b170b0571164cdbcc0a6bf558efbfc9a3730\\Manager.UI.ViewModels.ProfilePageViewModel.ShowDetails.g.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\4392b170b0571164cdbcc0a6bf558efbfc9a3730\\Manager.UI.ViewModels.ProfilePageViewModel.ShowDetails.g.cs",
+              "ToolTip": "C:\\Users\\Tekken\\AppData\\Local\\Temp\\.vsdbgsrc\\4392b170b0571164cdbcc0a6bf558efbfc9a3730\\Manager.UI.ViewModels.ProfilePageViewModel.ShowDetails.g.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\4392b170b0571164cdbcc0a6bf558efbfc9a3730\\Manager.UI.ViewModels.ProfilePageViewModel.ShowDetails.g.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAACCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T13:51:12.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "Manager.UI\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\GlobalUsings.cs",
+              "RelativeToolTip": "Manager.UI\\GlobalUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T17:48:53.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Persistense\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "Manager.Persistense\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.Persistense\\GlobalUsings.cs",
+              "RelativeToolTip": "Manager.Persistense\\GlobalUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T11:30:18.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Pages_RegistrationPage.xaml.sg.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\AppData\\Local\\Temp\\.vsdbgsrc\\fe1d39d46e2962a8b6be017c31a6afa752433e26\\Pages_RegistrationPage.xaml.sg.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\fe1d39d46e2962a8b6be017c31a6afa752433e26\\Pages_RegistrationPage.xaml.sg.cs",
+              "ToolTip": "C:\\Users\\Tekken\\AppData\\Local\\Temp\\.vsdbgsrc\\fe1d39d46e2962a8b6be017c31a6afa752433e26\\Pages_RegistrationPage.xaml.sg.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\fe1d39d46e2962a8b6be017c31a6afa752433e26\\Pages_RegistrationPage.xaml.sg.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAIAwwBUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T16:49:32.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Pages_MainPage.xaml.sg.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\AppData\\Local\\Temp\\.vsdbgsrc\\4e07933a2f6ec647a219d9747ac963beac759c3b\\Pages_MainPage.xaml.sg.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\4e07933a2f6ec647a219d9747ac963beac759c3b\\Pages_MainPage.xaml.sg.cs",
+              "ToolTip": "C:\\Users\\Tekken\\AppData\\Local\\Temp\\.vsdbgsrc\\4e07933a2f6ec647a219d9747ac963beac759c3b\\Pages_MainPage.xaml.sg.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\4e07933a2f6ec647a219d9747ac963beac759c3b\\Pages_MainPage.xaml.sg.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAIAwwBkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:13:37.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Xamarin.Android.Aapt2.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Aapt2.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Aapt2.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Aapt2.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Aapt2.targets",
+              "ViewState": "AQIAAMkAAAAAAAAAAAAtwNUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-03-12T12:34:27.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "OpenSans-Regular.ttf",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Resources\\Fonts\\OpenSans-Regular.ttf",
+              "RelativeDocumentMoniker": "Manager.UI\\Resources\\Fonts\\OpenSans-Regular.ttf",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Resources\\Fonts\\OpenSans-Regular.ttf",
+              "RelativeToolTip": "Manager.UI\\Resources\\Fonts\\OpenSans-Regular.ttf",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKSSURBVDhPzZTPbxJBFMffDLCwQAUxEOkP0FJCDzUlUQ7\u002BBxy8eSYSD/43JvY/8O7Vi\u002BEPKL0QEy8NNZHUSrSAsfxmZ3/43uzOFqiJ9eZn8zKzb2a\u002B773ZmWVbW1uBYDAIjDH4F2i\u002B4zh2v993xuOx60QHe43sIVHE9d4Kis5QSLRarfeNRuNDs9k8o4FgqVQ6KJcPy/H4xgY5boksZz6f2\u002Bl0\u002Bl44HE5gxu\u002BOj4/bgXq9/nJ7eycXQ7D0awK0EyG37zXroFAIua/regrN7vV654FarfYim81uapoWlrEVjuN1bqL2m3NOWTIUzmCmDzCn71yOeOCeXhu9q8fz/YlUKgW5XI4Xi8VspVJ5xWmiZVkrYrZt37Bl//JcyhYzZVg6x7KjUnB5MombpgW/RgZMZkK\u002Buz7TD0zzCOoTJIrGSNgXVCZMG4YTEz6fT\u002BGyP/eFyFR261mSKeGVDGmRwOy6lws4\u002BTSEMxSdL0x/TM2jdjkAoVr/o6hBwzDhx4DExvCxTe3EH1PmfTGJElJweqUFxHAi4BtmF8QwMZ3Bl\u002B4MWqcjPxu/tbF11oJ4cDyfMh45p1MTej9nEEex/XwIIADQ7howGBpgWqsC60ZQw/FGSMdCWDDF/VpgyYl4AA4KEdjZjIDAjb4YGPJjUXY3ypdC1Jc94GqzRxPLnhhga7EwJO7okE7pcFiMwf5D3bmcOpZp2\u002B5qZF3Qxe1zQwg5ENehm8\u002BEvj7K66CFGMSjIXi8F4NnTxJXTwvR06gWFHLFX2Bvjo7eFnZ3DyKRiIPlkDb\u002BdZYjwwJtjGfsLp1dedYYdw8zl7dE9vFOzzudzgWrVqvPk8lkBq\u002BO5pbhlrQmKhcqpBj9wbx/Mo0JIcwrxPX8vwD8Bk7yChnmb0LrAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-03-12T09:55:26.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "C:\\Users\\Tekken\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.6\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.6\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "C:\\Users\\Tekken\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.6\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.6\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AQIAAGICAAAAAAAAAAAvwGwCAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-03-11T19:53:40.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Manager.UI.ViewModels.AuthorListViewModel.g.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\AppData\\Local\\Temp\\VSGeneratedDocuments\\a946094f-e164-e606-867c-dcf37e62997e\\Manager.UI.ViewModels.AuthorListViewModel.g.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\VSGeneratedDocuments\\a946094f-e164-e606-867c-dcf37e62997e\\Manager.UI.ViewModels.AuthorListViewModel.g.cs",
+              "ToolTip": "Manager.UI.ViewModels.AuthorListViewModel.g.cs [\u0441\u043E\u0437\u0434\u0430\u043D \u0433\u0435\u043D\u0435\u0440\u0430\u0442\u043E\u0440\u043E\u043C CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenToolTip": "Manager.UI.ViewModels.AuthorListViewModel.g.cs [\u0441\u043E\u0437\u0434\u0430\u043D \u0433\u0435\u043D\u0435\u0440\u0430\u0442\u043E\u0440\u043E\u043C CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator]",
+              "WhenOpened": "2024-03-09T23:39:02.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Platforms\\Tizen\\Main.cs",
+              "RelativeDocumentMoniker": "Manager.UI\\Platforms\\Tizen\\Main.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Platforms\\Tizen\\Main.cs",
+              "RelativeToolTip": "Manager.UI\\Platforms\\Tizen\\Main.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T12:56:08.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "tizen-manifest.xml",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Platforms\\Tizen\\tizen-manifest.xml",
+              "RelativeDocumentMoniker": "Manager.UI\\Platforms\\Tizen\\tizen-manifest.xml",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\Manager\\Manager.UI\\Platforms\\Tizen\\tizen-manifest.xml",
+              "RelativeToolTip": "Manager.UI\\Platforms\\Tizen\\tizen-manifest.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-03-10T12:56:11.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Tekken\\.nuget\\packages\\communitytoolkit.maui\\7.0.1\\ReadMe.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\communitytoolkit.maui\\7.0.1\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\Tekken\\.nuget\\packages\\communitytoolkit.maui\\7.0.1\\ReadMe.txt",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\communitytoolkit.maui\\7.0.1\\ReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-08T17:41:11.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\BSUIR_University\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 4\\\u0421#\\lab 1-4\\Calculator\\Calculator\\Pages\\SQLite\\Entities\\Author.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\BSUIR_University\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 4\\\u0421#\\lab 1-4\\Calculator\\Calculator\\Pages\\SQLite\\Entities\\Author.cs",
+              "ToolTip": "C:\\BSUIR_University\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 4\\\u0421#\\lab 1-4\\Calculator\\Calculator\\Pages\\SQLite\\Entities\\Author.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\BSUIR_University\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 4\\\u0421#\\lab 1-4\\Calculator\\Calculator\\Pages\\SQLite\\Entities\\Author.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T09:46:33.104Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

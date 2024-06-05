@@ -1,0 +1,77 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Manager.UI
+build_property.ProjectDir = C:\Manager\Manager.UI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Manager/Manager.UI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Manager.UI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Manager/Manager.UI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Manager.UI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Manager/Manager.UI/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Manager.UI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Manager/Manager.UI/Pages/AddAuthor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Manager.UI.Pages.AddAuthor.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddAuthor.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddAuthor.xaml
+
+[C:/Manager/Manager.UI/Pages/AddBook.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Manager.UI.Pages.AddBook.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddBook.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddBook.xaml
+
+[C:/Manager/Manager.UI/Pages/AuthorList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Manager.UI.Pages.AuthorList.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AuthorList.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AuthorList.xaml
+
+[C:/Manager/Manager.UI/Pages/BooksDetails.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Manager.UI.Pages.BooksDetails.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\BooksDetails.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\BooksDetails.xaml
+
+[C:/Manager/Manager.UI/Pages/EditBook.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Manager.UI.Pages.EditBook.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\EditBook.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\EditBook.xaml
+
+[C:/Manager/Manager.UI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Manager.UI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Manager/Manager.UI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Manager.UI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

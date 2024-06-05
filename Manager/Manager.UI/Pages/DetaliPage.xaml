@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Manager.UI.Pages.DetaliPage"
+             Title="DetaliPage"
+             xmlns:entities="clr-namespace:Manager.Domain.Entities;assembly=Manager.Domain"
+             xmlns:models="clr-namespace:Manager.UI.ViewModels"
+             x:DataType="models:DetaliPageViewModel"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             NavigationPage.HasNavigationBar="False"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="CornflowerBlue">
+
+    <Grid RowDefinitions="*, Auto">
+
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout>
+                <Frame HorizontalOptions="FillAndExpand"
+                       VerticalOptions="FillAndExpand" 
+                       HeightRequest="200"
+                       BorderColor="Chocolate"
+                       WidthRequest="400"
+                       CornerRadius="20">
+                    <StackLayout>
+                        <Label Text="{Binding Task.Description, StringFormat='Название: {0}'}" FontSize="20" FontAttributes="Bold"/>
+                        <Label Text="{Binding Task.CreateTime, StringFormat='Дата начала: {0}'}" FontSize="16"/>
+                        <Label Text="{Binding Task.Deadline, StringFormat='Дедлайн: {0}'}" FontSize="16"/>
+                        <Label Text="{Binding Task.category.TaskCategory, StringFormat='Категория: {0}'}" FontSize="16"/>
+                        <Label Text="{Binding Task.status.TaskStatus, StringFormat='Статус: {0}'}" FontSize="16"/>
+                        <Label Text="{Binding Task.priority.PriorityLevel, StringFormat='Приоритет: {0}'}" FontSize="16"/>
+                    </StackLayout>
+                </Frame>
+
+                <Button Text="Изменить" HorizontalOptions="Center" WidthRequest="200" Margin="20" BackgroundColor="Chocolate" Command="{Binding EditCommand}"/>
+                <Button Text="Удалить" HorizontalOptions="Center" WidthRequest="200" Margin="20" BackgroundColor="Red" Command="{Binding DeleteTaskCommand}"/>
+
+                <Label Text="Подзадачи" FontAttributes="Bold" FontSize="20" Margin="0,30,0,10"/>
+                <CollectionView ItemsSource="{Binding Task.SubTasks}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="entities:SubTask">
+                            <Frame BorderColor="Gray" CornerRadius="5" Padding="10" Margin="0,5,0,0">
+                                <VerticalStackLayout>
+                                    <Label Text="{Binding Title}" FontAttributes="Bold"/>
+                                    <Label Text="{Binding Description}"/>
+                                    <Label Text="{Binding CreateTime}" FontSize="12"/>
+                                </VerticalStackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+                <Button Text="Добавить подзадачу" HorizontalOptions="Center" WidthRequest="200" Margin="20" BackgroundColor="Chocolate" Command="{Binding AddSubTaskCommand}"/>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Grid Grid.Row="1" BackgroundColor="LightGray" HeightRequest="60">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="Главная" Command="{Binding GoToMainPageCommand}" Grid.Column="0" />
+            <Button Text="Добавить задачу" Command="{Binding GoToAddTaskCommand}" Grid.Column="1" />
+            <Button Text="Профиль" Command="{Binding GoToProfileCommand}" Grid.Column="2" />
+        </Grid>
+
+    </Grid>
+</ContentPage>

@@ -1,0 +1,76 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Manager.UI.Pages.MainPage"
+             xmlns:entities="clr-namespace:Manager.Domain.Entities;assembly=Manager.Domain"
+             xmlns:models="clr-namespace:Manager.UI.ViewModels"
+             Title=""
+             x:DataType="models:MainPageViewModel"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             NavigationPage.HasNavigationBar="False"             
+             Shell.NavBarIsVisible="False"
+             xmlns:converter="clr-namespace:Manager.UI.Converters">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded"
+        Command="{Binding TaskListCommand}"/>
+    </ContentPage.Behaviors>
+
+    <Grid RowDefinitions="Auto, * ,Auto">
+
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Padding="30">
+
+                <Label Text="Фильтр по приоритету" FontAttributes="Bold"/>
+                <Picker ItemsSource="{Binding Priorities}" ItemDisplayBinding="{Binding PriorityLevel}" SelectedItem="{Binding SelectedPriority}"/>
+
+                <Label Text="Фильтр по статусу" FontAttributes="Bold"/>
+                <Picker ItemsSource="{Binding Statuses}" ItemDisplayBinding="{Binding TaskStatus}" SelectedItem="{Binding SelectedStatus}"/>
+
+                <Label Text="Фильтр по категории" FontAttributes="Bold"/>
+                <Picker ItemsSource="{Binding Categories}" ItemDisplayBinding="{Binding TaskCategory}" SelectedItem="{Binding SelectedCategory}"/>
+
+                <Label Text="Сортировка по" FontAttributes="Bold"/>
+                <Picker ItemsSource="{Binding SortCriteria}" SelectedItem="{Binding SelectedSortCriterion}"/>
+
+                <Label Text="Возвр/Убыв" FontAttributes="Bold"/>
+                <Switch IsToggled="{Binding IsSortAscending}"/>
+
+                <Button Text="Применить" Command="{Binding ApplyFiltersCommand}" HorizontalOptions="FillAndExpand" FontSize="18" Margin="0,20,0,0"/>
+
+                <CollectionView ItemsSource="{Binding Tasks}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="entities:Task">
+                            <Frame 
+                                BackgroundColor="{Binding status, Converter={converter:TaskStatusToBorderColorConverter}}"        
+                                   CornerRadius="5" Margin="10" Padding="10">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type models:MainPageViewModel}},
+                                Path=ShowDetailsCommand}" CommandParameter="{Binding}"/>
+                                </Frame.GestureRecognizers>
+                                <StackLayout>
+                                    <Label Text="{Binding Title }" FontSize="18" FontAttributes="Bold" />
+                                    <Label Text="{Binding Description }" FontSize="16" />
+                                </StackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+                <Button Text="Подробнее" Command="{Binding GoToProfilePageCommand}" HorizontalOptions="FillAndExpand" FontSize="18" Margin="10,20,0,0" />
+                
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Grid Grid.Row="2" BackgroundColor="LightGray" HeightRequest="60">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="Главная" Command="{Binding GoToMainPageCommand}" Grid.Column="0" />
+            <Button Text="Добавить задачу" Command="{Binding GoToAddTaskCommand}" Grid.Column="1" />
+            <Button Text="Профиль" Command="{Binding GoToUserPageCommand}" Grid.Column="2" />
+        </Grid>
+    </Grid>
+</ContentPage>

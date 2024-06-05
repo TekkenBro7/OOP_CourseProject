@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Manager.UI.Pages.LoginPage"
+             xmlns:entities="clr-namespace:Manager.Domain.Entities;assembly=Manager.Domain"
+             xmlns:models="clr-namespace:Manager.UI.ViewModels"
+             Title="Login"
+             BackgroundColor="CornflowerBlue"
+             x:DataType="models:LoginPageViewModel"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             NavigationPage.HasNavigationBar="False"             
+             Shell.NavBarIsVisible="False">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Appearing" Command="{Binding ClearLoginFieldsCommand}" />
+    </ContentPage.Behaviors>
+    
+    <ContentPage.Resources>
+        <Color x:Key="PrimaryColor">#4A90E2</Color>
+        <Color x:Key="SecondaryColor">#F4F4F4</Color>
+        <Color x:Key="AccentColor">#1D6FA3</Color>
+        <Color x:Key="ErrorColor">#F44336</Color>
+        <Color x:Key="TextColor">#333333</Color>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid Padding="20" RowSpacing="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            
+
+            <Entry Placeholder="Логин" Text="{Binding Login}" Grid.Row="1"
+       HeightRequest="50"
+       FontSize="18"
+       BackgroundColor="{StaticResource SecondaryColor}"
+       TextColor="{StaticResource TextColor}"
+       Margin="0,10"
+       VerticalOptions="Center"
+       HorizontalOptions="FillAndExpand"
+       HorizontalTextAlignment="Center"/>
+
+            <Entry Placeholder="Пароль" Text="{Binding Password}" IsPassword="True" Grid.Row="2"
+       HeightRequest="50"
+       FontSize="18"
+       BackgroundColor="{StaticResource SecondaryColor}"
+       TextColor="{StaticResource TextColor}"
+       Margin="0,10"
+       VerticalOptions="Center"
+       HorizontalOptions="FillAndExpand"
+       HorizontalTextAlignment="Center"/>
+
+            <Button Text="Войти"
+        Command="{Binding LoginUserCommand}"
+        Grid.Row="3"
+        HeightRequest="50"
+        FontSize="18"
+        BackgroundColor="{StaticResource PrimaryColor}"
+        TextColor="{StaticResource SecondaryColor}"
+        CornerRadius="25"
+        VerticalOptions="Center"
+        HorizontalOptions="FillAndExpand"
+        Margin="0,10"/>
+
+            <Button Text="Зарегистрироваться"
+        Command="{Binding GoToRegisterCommand}"
+        Grid.Row="4"
+        HeightRequest="50"
+        FontSize="18"
+        BackgroundColor="{StaticResource AccentColor}"
+        TextColor="{StaticResource SecondaryColor}"
+        CornerRadius="25"
+        VerticalOptions="Center"
+        HorizontalOptions="FillAndExpand"
+        Margin="0,10"/>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

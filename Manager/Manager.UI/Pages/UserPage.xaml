@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Manager.UI.Pages.UserPage"
+             Title="UserPage"
+             xmlns:entities="clr-namespace:Manager.Domain.Entities;assembly=Manager.Domain"
+             xmlns:models="clr-namespace:Manager.UI.ViewModels"
+             x:DataType="models:UserPageViewModel"
+             xmlns:microcharts="clr-namespace:Microcharts.Maui;assembly=Microcharts.Maui"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             NavigationPage.HasNavigationBar="False"
+             Shell.NavBarIsVisible="False">
+
+    <Grid RowDefinitions="*, Auto">
+
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout>
+                <Label Text="Логин" FontAttributes="Bold"/>
+                <Entry Text="{Binding Username}" Placeholder="Введите логин"/>
+
+                <Label Text="Почта" FontAttributes="Bold"/>
+                <Entry Text="{Binding Email}" Placeholder="Введите новую почту"/>
+
+                <Label Text="Новый пароль" FontAttributes="Bold"/>
+                <Entry Text="{Binding NewPassword}" Placeholder="Введите новый пароль" IsPassword="True"/>
+
+                <Label Text="Повторите пароль" FontAttributes="Bold"/>
+                <Entry Text="{Binding ConfirmPassword}" Placeholder="Повторите пароль" IsPassword="True"/>
+
+                <Button Text="Сохранить" Command="{Binding SaveCommand}" FontSize="18" Margin="0,20,0,0"/>
+
+                <Button Text="Выйти с аккаунта"
+                    Command="{Binding LogOutCommand}"
+                    FontAttributes="Bold"
+                    Margin="0,20,0,0"/>
+
+                <microcharts:ChartView Chart="{Binding TaskStatusChart}" HeightRequest="200" WidthRequest="410"/>
+                <microcharts:ChartView Chart="{Binding TaskCategoryChart}" HeightRequest="200" WidthRequest="300" Margin="10,0,52,0"/>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Grid Grid.Row="1" BackgroundColor="LightGray" HeightRequest="60">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="Главная" Command="{Binding GoToMainPageCommand}" Grid.Column="0" />
+            <Button Text="Добавить задачу" Command="{Binding GoToAddTaskCommand}" Grid.Column="1" />
+            <Button Text="Профиль" Command="{Binding GoToProfileCommand}" Grid.Column="2" />
+            
+        </Grid>
+
+    </Grid>
+</ContentPage>

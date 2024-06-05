@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Manager.UI.Pages.AddTaskPage"
+             Title="Add Task"
+             xmlns:entities="clr-namespace:Manager.Domain.Entities;assembly=Manager.Domain"
+             xmlns:models="clr-namespace:Manager.UI.ViewModels"
+             BackgroundColor="CornflowerBlue"
+             x:DataType="models:AddTaskPageViewModel"
+             NavigationPage.HasNavigationBar="False"             
+             Shell.NavBarIsVisible="False"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded"
+     Command="{Binding LoadPrioritiesCommand }"/>
+    </ContentPage.Behaviors>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="PrimaryColor">#2196F3</Color>
+            <Color x:Key="TextColor">#FFFFFF</Color>
+            <Style x:Key="TitleLabelStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="20" />
+                <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+            </Style>
+            <Style x:Key="EntryStyle" TargetType="Entry">
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="PlaceholderColor" Value="#FFFFFF" />
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="Margin" Value="0,10" />
+                <Setter Property="BackgroundColor" Value="#FFFFFF" />
+            </Style>
+            <Style x:Key="ButtonStyle" TargetType="Button">
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+                <Setter Property="BackgroundColor" Value="{StaticResource PrimaryColor}" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="Margin" Value="0,20,0,0" />
+                <Setter Property="Padding" Value="10" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="*, Auto">
+
+        <ScrollView Grid.Row="0">
+            <StackLayout Padding="30">
+                <Label Text="Создать задачу" Style="{StaticResource TitleLabelStyle}" />
+                <Entry Placeholder="Название" Text="{Binding NewTaskTitle}" Style="{StaticResource EntryStyle}" />
+                <Entry Placeholder="Описание" Text="{Binding NewTaskDescription}" Style="{StaticResource EntryStyle}" />
+                <Picker Title="Приоритет" ItemsSource="{Binding Priorities}" ItemDisplayBinding="{Binding PriorityLevel}" SelectedItem="{Binding SelectedPriority}" />
+                <Picker Title="Статус" ItemsSource="{Binding Statuses}" ItemDisplayBinding="{Binding TaskStatus}" SelectedItem="{Binding SelectedStatus}" />
+                <Picker Title="Категория" ItemsSource="{Binding Categories}" ItemDisplayBinding="{Binding TaskCategory }" SelectedItem="{Binding SelectedCategory}" />
+                <Label Text="Дедлайн" Style="{StaticResource TitleLabelStyle}" />
+                <DatePicker
+                    x:Name="dataPicker"
+                    Format="dd/mm/yyyy"
+                    MinimumDate="{Binding TodayDate}"
+                    MaximumDate="2099.12.31"
+                    TextColor="Black"
+                    HorizontalOptions="Center"
+                    BackgroundColor="Bisque"
+                    Margin="10, 0"
+                    FontAttributes="Bold"
+                    FontSize="16"
+                    Date="{Binding SelectedDeadline}"/>
+                <Button Text="Добавить задачу" Command="{Binding AddTaskCommand}" Style="{StaticResource ButtonStyle}" />
+            </StackLayout>
+        </ScrollView>
+
+        <Grid Grid.Row="1" BackgroundColor="LightGray" HeightRequest="60">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="Главная" Command="{Binding GoToMainPageCommand}" Grid.Column="0" />
+            <Button Text="Добавить задачу" Command="{Binding GoToAddTaskCommand}" Grid.Column="1" />
+            <Button Text="Профиль" Command="{Binding GoToProfileCommand}" Grid.Column="2" />
+        </Grid>
+
+    </Grid>
+</ContentPage>

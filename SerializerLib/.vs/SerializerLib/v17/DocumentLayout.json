@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\SerializerLib\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E4A745-AE54-4F7D-95AA-FEBF5CCBD37C}|SerializerLib\\SerializerLib.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\serializerlib\\serializerlib\\userserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8E4A745-AE54-4F7D-95AA-FEBF5CCBD37C}|SerializerLib\\SerializerLib.csproj|solutionrelative:serializerlib\\userserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E4A745-AE54-4F7D-95AA-FEBF5CCBD37C}|SerializerLib\\SerializerLib.csproj|c:\\users\\tekken\\desktop\\oop_courseproject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\serializerlib\\serializerlib\\iserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8E4A745-AE54-4F7D-95AA-FEBF5CCBD37C}|SerializerLib\\SerializerLib.csproj|solutionrelative:serializerlib\\iserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ISerializer.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\SerializerLib\\SerializerLib\\ISerializer.cs",
+              "RelativeDocumentMoniker": "SerializerLib\\ISerializer.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\SerializerLib\\SerializerLib\\ISerializer.cs",
+              "RelativeToolTip": "SerializerLib\\ISerializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T10:29:22.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserSerializer.cs",
+              "DocumentMoniker": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\SerializerLib\\SerializerLib\\UserSerializer.cs",
+              "RelativeDocumentMoniker": "SerializerLib\\UserSerializer.cs",
+              "ToolTip": "C:\\Users\\Tekken\\Desktop\\OOP_CourseProject \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F\\SerializerLib\\SerializerLib\\UserSerializer.cs",
+              "RelativeToolTip": "SerializerLib\\UserSerializer.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBQAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T10:27:41.908Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

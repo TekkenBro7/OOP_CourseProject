@@ -1,0 +1,77 @@
+C:\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Persistense.deps.json
+C:\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Persistense.dll
+C:\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Persistense.pdb
+C:\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.GeneratedMSBuildEditorConfig.editorconfig
+C:\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.AssemblyInfoInputs.cache
+C:\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.AssemblyInfo.cs
+C:\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.csproj.CoreCompileInputs.cache
+C:\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.dll
+C:\Manager\Manager.Persistense\obj\Debug\net8.0\refint\Manager.Persistense.dll
+C:\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.pdb
+C:\Manager\Manager.Persistense\obj\Debug\net8.0\ref\Manager.Persistense.dll
+C:\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Domain.dll
+C:\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Domain.pdb
+C:\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.csproj.AssemblyReference.cache
+C:\Manager\Manager.Persistense\obj\Debug\net8.0\Manager..128D9EE1.Up2Date
+C:\BSUIR_University\Семестр 4\С#\lab 5\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Persistense.deps.json
+C:\BSUIR_University\Семестр 4\С#\lab 5\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Persistense.dll
+C:\BSUIR_University\Семестр 4\С#\lab 5\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Persistense.pdb
+C:\BSUIR_University\Семестр 4\С#\lab 5\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Domain.dll
+C:\BSUIR_University\Семестр 4\С#\lab 5\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Domain.pdb
+C:\BSUIR_University\Семестр 4\С#\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.csproj.AssemblyReference.cache
+C:\BSUIR_University\Семестр 4\С#\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.GeneratedMSBuildEditorConfig.editorconfig
+C:\BSUIR_University\Семестр 4\С#\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.AssemblyInfoInputs.cache
+C:\BSUIR_University\Семестр 4\С#\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.AssemblyInfo.cs
+C:\BSUIR_University\Семестр 4\С#\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.csproj.CoreCompileInputs.cache
+C:\BSUIR_University\Семестр 4\С#\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.sourcelink.json
+C:\BSUIR_University\Семестр 4\С#\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\Manager..128D9EE1.Up2Date
+C:\BSUIR_University\Семестр 4\С#\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.dll
+C:\BSUIR_University\Семестр 4\С#\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\refint\Manager.Persistense.dll
+C:\BSUIR_University\Семестр 4\С#\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.pdb
+C:\BSUIR_University\Семестр 4\С#\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\ref\Manager.Persistense.dll
+C:\Users\Tekken\Desktop\lab 5\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Persistense.deps.json
+C:\Users\Tekken\Desktop\lab 5\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Persistense.dll
+C:\Users\Tekken\Desktop\lab 5\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Persistense.pdb
+C:\Users\Tekken\Desktop\lab 5\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Domain.dll
+C:\Users\Tekken\Desktop\lab 5\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Domain.pdb
+C:\Users\Tekken\Desktop\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.csproj.AssemblyReference.cache
+C:\Users\Tekken\Desktop\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tekken\Desktop\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.AssemblyInfoInputs.cache
+C:\Users\Tekken\Desktop\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.AssemblyInfo.cs
+C:\Users\Tekken\Desktop\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.csproj.CoreCompileInputs.cache
+C:\Users\Tekken\Desktop\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\Manager..128D9EE1.Up2Date
+C:\Users\Tekken\Desktop\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.dll
+C:\Users\Tekken\Desktop\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\refint\Manager.Persistense.dll
+C:\Users\Tekken\Desktop\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.pdb
+C:\Users\Tekken\Desktop\lab 5\Manager\Manager.Persistense\obj\Debug\net8.0\ref\Manager.Persistense.dll
+C:\Users\Tekken\Desktop\lab 5 — копия\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Persistense.deps.json
+C:\Users\Tekken\Desktop\lab 5 — копия\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Persistense.dll
+C:\Users\Tekken\Desktop\lab 5 — копия\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Persistense.pdb
+C:\Users\Tekken\Desktop\lab 5 — копия\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Domain.dll
+C:\Users\Tekken\Desktop\lab 5 — копия\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Domain.pdb
+C:\Users\Tekken\Desktop\lab 5 — копия\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.csproj.AssemblyReference.cache
+C:\Users\Tekken\Desktop\lab 5 — копия\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tekken\Desktop\lab 5 — копия\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.AssemblyInfoInputs.cache
+C:\Users\Tekken\Desktop\lab 5 — копия\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.AssemblyInfo.cs
+C:\Users\Tekken\Desktop\lab 5 — копия\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.csproj.CoreCompileInputs.cache
+C:\Users\Tekken\Desktop\lab 5 — копия\Manager\Manager.Persistense\obj\Debug\net8.0\Manager..128D9EE1.Up2Date
+C:\Users\Tekken\Desktop\lab 5 — копия\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.dll
+C:\Users\Tekken\Desktop\lab 5 — копия\Manager\Manager.Persistense\obj\Debug\net8.0\refint\Manager.Persistense.dll
+C:\Users\Tekken\Desktop\lab 5 — копия\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.pdb
+C:\Users\Tekken\Desktop\lab 5 — копия\Manager\Manager.Persistense\obj\Debug\net8.0\ref\Manager.Persistense.dll
+C:\Users\Tekken\Desktop\OOP_CourseProject — копия — копия\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Persistense.deps.json
+C:\Users\Tekken\Desktop\OOP_CourseProject — копия — копия\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Persistense.dll
+C:\Users\Tekken\Desktop\OOP_CourseProject — копия — копия\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Persistense.pdb
+C:\Users\Tekken\Desktop\OOP_CourseProject — копия — копия\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Domain.dll
+C:\Users\Tekken\Desktop\OOP_CourseProject — копия — копия\Manager\Manager.Persistense\bin\Debug\net8.0\Manager.Domain.pdb
+C:\Users\Tekken\Desktop\OOP_CourseProject — копия — копия\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.csproj.AssemblyReference.cache
+C:\Users\Tekken\Desktop\OOP_CourseProject — копия — копия\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tekken\Desktop\OOP_CourseProject — копия — копия\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.AssemblyInfoInputs.cache
+C:\Users\Tekken\Desktop\OOP_CourseProject — копия — копия\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.AssemblyInfo.cs
+C:\Users\Tekken\Desktop\OOP_CourseProject — копия — копия\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.csproj.CoreCompileInputs.cache
+C:\Users\Tekken\Desktop\OOP_CourseProject — копия — копия\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.sourcelink.json
+C:\Users\Tekken\Desktop\OOP_CourseProject — копия — копия\Manager\Manager.Persistense\obj\Debug\net8.0\Manager..128D9EE1.Up2Date
+C:\Users\Tekken\Desktop\OOP_CourseProject — копия — копия\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.dll
+C:\Users\Tekken\Desktop\OOP_CourseProject — копия — копия\Manager\Manager.Persistense\obj\Debug\net8.0\refint\Manager.Persistense.dll
+C:\Users\Tekken\Desktop\OOP_CourseProject — копия — копия\Manager\Manager.Persistense\obj\Debug\net8.0\Manager.Persistense.pdb
+C:\Users\Tekken\Desktop\OOP_CourseProject — копия — копия\Manager\Manager.Persistense\obj\Debug\net8.0\ref\Manager.Persistense.dll

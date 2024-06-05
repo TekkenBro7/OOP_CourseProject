@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Manager.UI.Pages.RegistrationPage"
+             Title="Registration"
+             xmlns:entities="clr-namespace:Manager.Domain.Entities;assembly=Manager.Domain"
+             xmlns:models="clr-namespace:Manager.UI.ViewModels"           
+             x:DataType="models:RegistrationPageViewModel"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             NavigationPage.HasNavigationBar="False"
+             
+             Shell.NavBarIsVisible="False">
+    
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="PrimaryColor">#3498db</Color>
+            <Color x:Key="SecondaryColor">#2ecc71</Color>
+            <Color x:Key="TextColor">#ffffff</Color>
+            <Color x:Key="PlaceholderColor">#95a5a6</Color>
+            <Style TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="#ffffff" />
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="PlaceholderColor" Value="{StaticResource PlaceholderColor}" />
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="Margin" Value="0,5" />
+                <Setter Property="HeightRequest" Value="50" />
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource PrimaryColor}" />
+                <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="CornerRadius" Value="25" />
+                <Setter Property="HeightRequest" Value="50" />
+                <Setter Property="Margin" Value="0,20" />
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="TextColor" Value="Red" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="IsVisible" Value="False" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <VerticalStackLayout Padding="30,60" Spacing="20">
+        <Entry Placeholder="Логин" Text="{Binding Login}" />
+        <Entry Placeholder="Пароль" Text="{Binding Password}" IsPassword="True" />
+        <Entry Placeholder="Имя" Text="{Binding Name}" />
+        <Entry Placeholder="Фамилия" Text="{Binding SecondName}" />
+        <Entry Placeholder="Почта" Text="{Binding Email}" Keyboard="Email" />
+        <Button Text="Зарегистрироваться" Command="{Binding RegisterCommand}" />
+    </VerticalStackLayout>
+
+</ContentPage>

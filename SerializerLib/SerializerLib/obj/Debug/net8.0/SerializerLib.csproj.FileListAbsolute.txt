@@ -1,0 +1,11 @@
+C:\Users\Tekken\Desktop\SerializerLib\SerializerLib\bin\Debug\net8.0\SerializerLib.deps.json
+C:\Users\Tekken\Desktop\SerializerLib\SerializerLib\bin\Debug\net8.0\SerializerLib.dll
+C:\Users\Tekken\Desktop\SerializerLib\SerializerLib\bin\Debug\net8.0\SerializerLib.pdb
+C:\Users\Tekken\Desktop\SerializerLib\SerializerLib\obj\Debug\net8.0\SerializerLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tekken\Desktop\SerializerLib\SerializerLib\obj\Debug\net8.0\SerializerLib.AssemblyInfoInputs.cache
+C:\Users\Tekken\Desktop\SerializerLib\SerializerLib\obj\Debug\net8.0\SerializerLib.AssemblyInfo.cs
+C:\Users\Tekken\Desktop\SerializerLib\SerializerLib\obj\Debug\net8.0\SerializerLib.csproj.CoreCompileInputs.cache
+C:\Users\Tekken\Desktop\SerializerLib\SerializerLib\obj\Debug\net8.0\SerializerLib.dll
+C:\Users\Tekken\Desktop\SerializerLib\SerializerLib\obj\Debug\net8.0\refint\SerializerLib.dll
+C:\Users\Tekken\Desktop\SerializerLib\SerializerLib\obj\Debug\net8.0\SerializerLib.pdb
+C:\Users\Tekken\Desktop\SerializerLib\SerializerLib\obj\Debug\net8.0\ref\SerializerLib.dll

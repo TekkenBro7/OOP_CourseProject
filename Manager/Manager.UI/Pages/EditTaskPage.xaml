@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Manager.UI.Pages.EditTaskPage"
+             Title="EditTaskPage"
+             xmlns:entities="clr-namespace:Manager.Domain.Entities;assembly=Manager.Domain"
+             xmlns:models="clr-namespace:Manager.UI.ViewModels"
+             x:DataType="models:EditTaskPageViewModel"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             NavigationPage.HasNavigationBar="False"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="CornflowerBlue">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded" Command="{Binding LoadPrioritiesCommand}"/>
+    </ContentPage.Behaviors>
+
+    <Grid RowDefinitions="*, Auto">
+
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout>
+                <Label HorizontalOptions="Center" Text="Название" Margin="0,3,0,5" FontAttributes="Bold"/>
+                <Entry Text="{Binding Task.Title}" WidthRequest="200" HorizontalOptions="Center"/>
+                <Label HorizontalOptions="Center" Text="Описание" Margin="0,15,0,5" FontAttributes="Bold"/>
+                <Entry Text="{Binding Task.Description}" WidthRequest="200" HorizontalOptions="Center"/>
+                <Label HorizontalOptions="Center" Text="Дедлайн" Margin="0,15,0,5" FontAttributes="Bold"/>
+                <DatePicker Date="{Binding Task.Deadline}" WidthRequest="200" HorizontalOptions="Center"/>
+                <Picker Title="Приоритет" ItemsSource="{Binding Priorities}" ItemDisplayBinding="{Binding PriorityLevel}" SelectedItem="{Binding SelectedPriority}" />
+                <Picker Title="Статус" ItemsSource="{Binding Statuses}" ItemDisplayBinding="{Binding TaskStatus}" SelectedItem="{Binding SelectedStatus}" />
+                <Picker Title="Категория" ItemsSource="{Binding Categories}" ItemDisplayBinding="{Binding TaskCategory}" SelectedItem="{Binding SelectedCategory}" />
+
+                <Button VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="200"
+                        Text="Изменить" Command="{Binding EditTaskCommand}" BackgroundColor="Chocolate"
+                        Margin="0,0,0,10"/>
+
+                <Label Text="Комментарии" FontAttributes="Bold" FontSize="20" Margin="0,30,0,10"/>
+                <CollectionView ItemsSource="{Binding Comments}" SelectionMode="Single">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="entities:Comment">
+                            <Frame BorderColor="Gray" CornerRadius="5" Padding="10" Margin="0,5,0,0">
+                                <VerticalStackLayout>
+                                    <Label Text="{Binding Content}" FontAttributes="Bold"/>
+                                    <Label Text="{Binding DateTime}" FontSize="12"/>
+                                    <Button Text="Удалить" Command="{Binding Source={RelativeSource AncestorType={x:Type models:EditTaskPageViewModel}}, Path=DeleteCommentCommand}" CommandParameter="{Binding}"/>
+                                </VerticalStackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+                <Entry Placeholder="Новый комментарий" Text="{Binding NewCommentContent}" WidthRequest="200" HorizontalOptions="Center"/>
+                <Button Text="Добавить комментарий" Command="{Binding AddCommentCommand}" WidthRequest="200" HorizontalOptions="Center"/>
+
+                <Label Text="Подзадачи" FontAttributes="Bold" FontSize="20" Margin="0,30,0,10"/>
+                <CollectionView ItemsSource="{Binding Task.SubTasks}" SelectionMode="Single">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="entities:SubTask">
+                            <Frame BorderColor="Gray" CornerRadius="5" Padding="10" Margin="0,5,0,0">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type models:EditTaskPageViewModel}}, Path=EditSubTaskCommand}" CommandParameter="{Binding}" />
+                                </Frame.GestureRecognizers>
+                                <VerticalStackLayout>
+                                    <Label Text="{Binding Title}" FontAttributes="Bold"/>
+                                    <Label Text="{Binding Description}"/>
+                                    <Label Text="{Binding CreateTime}" FontSize="12"/>
+                                </VerticalStackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Grid Grid.Row="1" BackgroundColor="LightGray" HeightRequest="60">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="Главная" Command="{Binding GoToMainPageCommand}" Grid.Column="0" />
+            <Button Text="Добавить задачу" Command="{Binding GoToAddTaskCommand}" Grid.Column="1" />
+            <Button Text="Профиль" Command="{Binding GoToProfileCommand}" Grid.Column="2" />
+        </Grid>
+    </Grid>
+</ContentPage>
